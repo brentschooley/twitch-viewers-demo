@@ -31,6 +31,7 @@ namespace TwitchViewersDemo
 
 			return mods;
 		}
+
 		public static async Task<List<TwitchViewer>> GetViewers()
 		{
 			var viewers = new List<TwitchViewer>();
