@@ -26,10 +26,92 @@ namespace TwitchViewersDemo.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::TwitchViewersDemo.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::TwitchViewersDemo.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::TwitchViewersDemo.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::TwitchViewersDemo.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::TwitchViewersDemo.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::TwitchViewersDemo.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::TwitchViewersDemo.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::TwitchViewersDemo.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::TwitchViewersDemo.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::TwitchViewersDemo.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::TwitchViewersDemo.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::TwitchViewersDemo.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::TwitchViewersDemo.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::TwitchViewersDemo.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::TwitchViewersDemo.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::TwitchViewersDemo.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::TwitchViewersDemo.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::TwitchViewersDemo.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::TwitchViewersDemo.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::TwitchViewersDemo.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::TwitchViewersDemo.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::TwitchViewersDemo.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::TwitchViewersDemo.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::TwitchViewersDemo.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::TwitchViewersDemo.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 		}
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010006
+			public const int ahBarColor = 2130771974;
+			
+			// aapt resource value: 0x7f01000e
+			public const int ahBarLength = 2130771982;
+			
+			// aapt resource value: 0x7f01000d
+			public const int ahBarWidth = 2130771981;
+			
+			// aapt resource value: 0x7f01000b
+			public const int ahCircleColor = 2130771979;
+			
+			// aapt resource value: 0x7f01000a
+			public const int ahDelayMillis = 2130771978;
+			
+			// aapt resource value: 0x7f01000c
+			public const int ahRadius = 2130771980;
+			
+			// aapt resource value: 0x7f010007
+			public const int ahRimColor = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int ahRimWidth = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int ahSpinSpeed = 2130771977;
+			
+			// aapt resource value: 0x7f010003
+			public const int ahText = 2130771971;
+			
+			// aapt resource value: 0x7f010004
+			public const int ahTextColor = 2130771972;
+			
+			// aapt resource value: 0x7f010005
+			public const int ahTextSize = 2130771973;
+			
+			// aapt resource value: 0x7f010001
+			public const int hasStickyHeaders = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int isDrawingListUnderStickyHeader = 2130771970;
+			
+			// aapt resource value: 0x7f010000
+			public const int stickyListHeadersListViewStyle = 2130771968;
 			
 			static Attribute()
 			{
@@ -41,17 +123,82 @@ namespace TwitchViewersDemo.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int header_normal = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int header_pressed = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int menu_section_header = 2131099650;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int header_selector = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ic_errorstatus = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ic_successstatus = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int roundedbg = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int roundedbgdark = 2130837508;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int listView = 2131034112;
+			// aapt resource value: 0x7f080005
+			public const int listView = 2131230725;
 			
-			// aapt resource value: 0x7f050002
-			public const int rankTextView = 2131034114;
+			// aapt resource value: 0x7f080003
+			public const int loadingImage = 2131230723;
 			
-			// aapt resource value: 0x7f050001
-			public const int usernameTextView = 2131034113;
+			// aapt resource value: 0x7f080001
+			public const int loadingProgressBar = 2131230721;
+			
+			// aapt resource value: 0x7f080004
+			public const int loadingProgressWheel = 2131230724;
+			
+			// aapt resource value: 0x7f080007
+			public const int rankTextView = 2131230727;
+			
+			// aapt resource value: 0x7f080000
+			public const int text1 = 2131230720;
+			
+			// aapt resource value: 0x7f080002
+			public const int textViewStatus = 2131230722;
+			
+			// aapt resource value: 0x7f080006
+			public const int usernameTextView = 2131230726;
 			
 			static Id()
 			{
@@ -66,11 +213,23 @@ namespace TwitchViewersDemo.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int Header = 2130968576;
 			
-			// aapt resource value: 0x7f030001
-			public const int ViewerItemLayout = 2130903041;
+			// aapt resource value: 0x7f040001
+			public const int loading = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int loadingimage = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int loadingprogress = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int Main = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int ViewerItemLayout = 2130968581;
 			
 			static Layout()
 			{
@@ -85,8 +244,8 @@ namespace TwitchViewersDemo.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Icon = 2130903040;
 			
 			static Mipmap()
 			{
@@ -101,11 +260,14 @@ namespace TwitchViewersDemo.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f050002
+			public const int app_name = 2131034114;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050001
+			public const int hello = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int library_name = 2131034112;
 			
 			static String()
 			{
@@ -113,6 +275,189 @@ namespace TwitchViewersDemo.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int MenuSectionHeader = 2131165184;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] ProgressWheel = new int[]
+			{
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982};
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahBarColor = 3;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahBarLength = 11;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahBarWidth = 10;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahCircleColor = 8;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahDelayMillis = 7;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahRadius = 9;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahRimColor = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRimWidth = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahSpinSpeed = 6;
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahText = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahTextColor = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahTextSize = 2;
+			
+			public static int[] StickyListHeadersListView = new int[]
+			{
+					16842879,
+					16842965,
+					16842966,
+					16842967,
+					16842968,
+					16842969,
+					16842974,
+					16842976,
+					16842987,
+					16843003,
+					16843004,
+					16843005,
+					16843006,
+					16843008,
+					16843009,
+					16843049,
+					16843050,
+					16843051,
+					16843302,
+					16843457,
+					16843573,
+					16843685,
+					2130771968,
+					2130771969,
+					2130771970};
+			
+			// aapt resource value: 14
+			public const int StickyListHeadersListView_android_cacheColorHint = 14;
+			
+			// aapt resource value: 17
+			public const int StickyListHeadersListView_android_choiceMode = 17;
+			
+			// aapt resource value: 8
+			public const int StickyListHeadersListView_android_clipToPadding = 8;
+			
+			// aapt resource value: 15
+			public const int StickyListHeadersListView_android_divider = 15;
+			
+			// aapt resource value: 16
+			public const int StickyListHeadersListView_android_dividerHeight = 16;
+			
+			// aapt resource value: 10
+			public const int StickyListHeadersListView_android_drawSelectorOnTop = 10;
+			
+			// aapt resource value: 7
+			public const int StickyListHeadersListView_android_fadingEdgeLength = 7;
+			
+			// aapt resource value: 20
+			public const int StickyListHeadersListView_android_fastScrollAlwaysVisible = 20;
+			
+			// aapt resource value: 18
+			public const int StickyListHeadersListView_android_fastScrollEnabled = 18;
+			
+			// aapt resource value: 9
+			public const int StickyListHeadersListView_android_listSelector = 9;
+			
+			// aapt resource value: 19
+			public const int StickyListHeadersListView_android_overScrollMode = 19;
+			
+			// aapt resource value: 1
+			public const int StickyListHeadersListView_android_padding = 1;
+			
+			// aapt resource value: 5
+			public const int StickyListHeadersListView_android_paddingBottom = 5;
+			
+			// aapt resource value: 2
+			public const int StickyListHeadersListView_android_paddingLeft = 2;
+			
+			// aapt resource value: 4
+			public const int StickyListHeadersListView_android_paddingRight = 4;
+			
+			// aapt resource value: 3
+			public const int StickyListHeadersListView_android_paddingTop = 3;
+			
+			// aapt resource value: 21
+			public const int StickyListHeadersListView_android_requiresFadingEdge = 21;
+			
+			// aapt resource value: 0
+			public const int StickyListHeadersListView_android_scrollbarStyle = 0;
+			
+			// aapt resource value: 6
+			public const int StickyListHeadersListView_android_scrollbars = 6;
+			
+			// aapt resource value: 12
+			public const int StickyListHeadersListView_android_scrollingCache = 12;
+			
+			// aapt resource value: 11
+			public const int StickyListHeadersListView_android_stackFromBottom = 11;
+			
+			// aapt resource value: 13
+			public const int StickyListHeadersListView_android_transcriptMode = 13;
+			
+			// aapt resource value: 23
+			public const int StickyListHeadersListView_hasStickyHeaders = 23;
+			
+			// aapt resource value: 24
+			public const int StickyListHeadersListView_isDrawingListUnderStickyHeader = 24;
+			
+			// aapt resource value: 22
+			public const int StickyListHeadersListView_stickyListHeadersListViewStyle = 22;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}

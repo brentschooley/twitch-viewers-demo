@@ -25,6 +25,11 @@ namespace TwitchViewersDemo.iOS
 			set;
 		}
 
+		public long? ViewerCount {
+			get;
+			set;
+		}
+
 		public TwitchViewersTableViewController (IntPtr handle) : base (handle)
 		{
 			Viewers = new List<TwitchViewer>();
@@ -40,6 +45,13 @@ namespace TwitchViewersDemo.iOS
 
 			Viewers = await TwitchViewerService.GetViewers();
 			Mods = await TwitchViewerService.GetMods();
+			ViewerCount = await TwitchViewerService.GetViewerCount ();
+			//TwitchViewerService.TestFollowersMethod ();
+
+			if(ViewerCount.HasValue)
+			{
+				this.Title = $"Twitch Viewers - {ViewerCount.Value} online";
+			}
 
 			this.TableView.ReloadData();
 

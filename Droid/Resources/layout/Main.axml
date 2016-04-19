@@ -5,10 +5,12 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <ListView
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:fastScrollEnabled="true"
         android:id="@+id/listView" />
 </LinearLayout>

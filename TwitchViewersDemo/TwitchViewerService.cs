@@ -6,6 +6,8 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+using TwixelAPI;
+
 namespace TwitchViewersDemo
 {
 	public static class TwitchViewerService
@@ -49,6 +51,13 @@ namespace TwitchViewersDemo
 			}
 
 			return viewers;
+		}
+
+		public static async Task<long?> GetViewerCount()
+		{
+			var twixel = new Twixel ("iy9ihx1dt50wo7jsb5p8tv5kvpd1yvq", "http://localhost");
+			var stream = await twixel.RetrieveStream ("brentschooley");
+			return stream.viewers;
 		}
 	}
 }
